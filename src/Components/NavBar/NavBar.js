@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function CollapsibleExample() {
     return (
@@ -35,7 +36,9 @@ function CollapsibleExample() {
                     </Nav>
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        <ShoppingCartIcon />
+    </Navbar>
+
     );
 }
 
